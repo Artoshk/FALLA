@@ -36,7 +36,7 @@ namespace FALLA.Implementation
 
     public class OpenRouterLlm : BaseLlm
     {
-        public OpenRouterLlm(string apiKey, string model = "openai/gpt-5.4-mini") :
+        public OpenRouterLlm(string apiKey, string model = "qwen/qwen3.6-35b-a3b") :
             base(apiKey, "https://openrouter.ai/api/v1/chat/completions", model)
         {
         }
